@@ -73,7 +73,6 @@ public class Ekran extends JFrame {
 					Desktop.getDesktop().browse(new URL("https://www.metro.istanbul/").toURI());
 				}
 				catch (Exception m) {}
-			
 			}
 		});
 		web.setForeground(new Color(204, 255, 255));
@@ -151,7 +150,6 @@ public class Ekran extends JFrame {
 		JLabel lblNewLabel_1 = new JLabel("");
 		lblNewLabel_1.setIcon(new ImageIcon("D:\\B\\Codes\\JavaProjects\\Train\\metro.png"));
 		lblNewLabel_1.setBounds(105, 11, 386, 127);
-		panel.add(lblNewLabel_1);
-	
+		panel.add(lblNewLabel_1);	
 	}
-}
+}										
